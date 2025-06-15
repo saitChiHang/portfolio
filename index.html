@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reeve Wong - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="home"></div>
+    <nav class="nav-alternative">
+        <a href="#home"><img src="./image/reeve_wong.jpg" alt="Reeve Wong" class="logo"></a>
+        <div class="nav-links-alt">
+            <a href="#home"><i class="fa-solid fa-house"></i>Home</a>
+            <a href="#about"><i class="fa-solid fa-file"></i>About</a>
+            <a href="#contact"><i class="fa-solid fa-address-book"></i>Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="main-container">
+            <p class="title">Hello, I'm Reeve</p>
+            <p class="content"> With over 10 years of experience in application development and 2 years in GIS, I
+                specialize in integrating spatial data systems and developing enterprise applications. My expertise
+                spans across GIS technologies, Java-based systems, and AI applications, with a strong focus on solving
+                complex technical challenges.</p>
+        </div>
+        <div class="main-container2">
+            <button><a href="#">View Resume</a></button>
+            <button><a href="#main-contact">Contact Me</a></button>
+        </div>
+        <div class="scroll-indicator" onclick="document.getElementById('about').scrollIntoView()">
+            <div>Scroll Down</div>
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+    </main>
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <h2 class="about-title">About Me & My Projects</h2>
+            <p class="about-description">
+                I'm a passionate developer who loves creating innovative solutions. Here are some of my featured
+                projects that showcase my skills and creativity in web development, mobile apps, and software
+                engineering.
+            </p>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <h3 class="project-title">Full-Stack AI Solution: LLM Fine-Tuning with Modern Web Architecture</h3>
+                    <p class="project-description">
+                        A production-grade, full-stack AI solution that transforms enterprise document management
+                        through intelligent conversation. Built with modern web technologies and advanced machine
+                        learning, this comprehensive solution demonstrates end-to-end development from LLM fine-tuning
+                        to scalable deployment.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Transformer</span>
+                        <span class="tech-tag">PyTorch</span>
+                        <span class="tech-tag">Hugging face</span>
+                        <span class="tech-tag">React.js</span>
+                        <span class="tech-tag">FastAPI</span>
+                    </div>
+                    <a href="#" class="project-link">
+                        Work in Progress <i class="fa-solid fa-external-link"></i>
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fa-solid fa-gamepad"></i>
+                    </div>
+                    <h3 class="project-title">Deep Q-Learning Agent for Automated 2048 Gameplay</h3>
+                    <p class="project-description">
+                        An intelligent gaming agent that learns to play 2048 autonomously using Deep Q-Learning (DQN).
+                        The project implements a neural network that processes game states and learns optimal strategies
+                        through reinforcement learning, achieving consistent high scores without human intervention.
+                        Features include state representation, reward engineering, and experience replay for stable
+                        learning.
+
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">PyTorch</span>
+                        <span class="tech-tag">OpenAI Gym</span>
+                        <span class="tech-tag">Numpy</span>
+                    </div>
+                    <a href="#" class="project-link">
+                        View Project <i class="fa-solid fa-external-link"></i>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <h3 class="project-title">GIS Web Platform: Advanced Mapping with ArcGIS JavaScript API</h3>
+                    <p class="project-description">
+                        A comprehensive web mapping application built with the Esri ArcGIS JavaScript SDK, showcasing
+                        advanced geospatial visualization and analysis capabilities. The solution integrates multiple
+                        data sources, provides interactive mapping tools, and delivers real-time spatial insights
+                        through a modern, responsive web interface.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">ArcGIS</span>
+                        <span class="tech-tag">Vue.js</span>
+                        <span class="tech-tag">Vite</span>
+                    </div>
+                    <a href="#" class="project-link">
+                        View Project <i class="fa-solid fa-external-link"></i>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+                    <h3 class="project-title">Multi-Tool Spatial Visualization: Streamlit-Based Interactive Dashboard
+                    </h3>
+                    <p class="project-description">
+                        A comprehensive spatial data visualization application that demonstrates mastery of Python's
+                        geospatial ecosystem and modern web app development. This project showcases the ability to
+                        integrate multiple specialized libraries into a cohesive, user-friendly analytical platform.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Streamlit</span>
+                        <span class="tech-tag">Plotly</span>
+                        <span class="tech-tag">Folium</span>
+                        <span class="tech-tag">PyGWalker</span>
+                        <span class="tech-tag">GeoPandas</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">Docker</span>
+                    </div>
+                    <a href="#" class="project-link">
+                        View Project <i class="fa-solid fa-external-link"></i>
+                    </a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <h2 class="contact-title">Contact Me</h2>
+            <p class="contact-subtitle">
+                Have a project in mind or want to collaborate? I'd love to hear from you. Let's create something amazing
+                together!
+            </p>
+
+            <div class="contact-content">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <a href="mailto:reeve.wong@email.com">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <span>reeve.wong@email.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <a href="https://maps.app.goo.gl/9iMZpwjzJeVCf95CA" target="_blank">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </a>
+                        <span>Calgary, Alberta, Canada</span>
+                    </div>
+                    <div class="contact-item">
+                        <a href="https://poe.com/InterviewWithReeve" target="_blank">
+                            <i class="fa-solid fa-robot"></i>
+                        </a>
+                        <span>Ask my AI assistant anything about my background</span>
+                    </div>
+                    <!-- Social Links -->
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" title="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link" title="YouTube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                        <a href="#" class="social-link" title="Kaggle">
+                            <i class="fa-brands fa-kaggle"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Me a Message</h3>
+                    <form name="contact" action="https://formspree.io/f/xdkzzanz" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
